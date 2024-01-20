@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 let fullName = "Samuel Chacon"
 let currentYear = new Date().getFullYear()
-let profilePicture = "w02-task/images/samuel_imagen 300.jpg"
+let profilePicture = "w02-task/images/samuel_imagen_300.jpg"
 let fileName = "profile picture"
 
 /* Step 3 - Element Variables */
