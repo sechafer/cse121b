@@ -1,4 +1,7 @@
-/* LESSON 3 - Programming Tasks */
+/* LESSON 3 - Programming Tasks 
+
+
+*/
 
 const buttonAddNumbers = document.getElementById('addNumbers')
 buttonAddNumbers.addEventListener('click', addNumbers)
