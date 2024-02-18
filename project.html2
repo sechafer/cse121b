@@ -8,9 +8,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="w02-task/styles/main.css">
-  <link rel="stylesheet" href="w02-task/styles/project.css">
-  <script src="w02-task/scripts/main.js" defer></script>
+  <link rel="stylesheet" href="project/style/main.css">
+  <link rel="stylesheet" href="project/style/project.css">
+  
+  <script src="project/script/main.js" defer></script>
+
 
 </head>
 <body>
@@ -22,7 +24,7 @@
       <li><a href="w03-task.html">W3 Task</a></li>
       <li><a href="w04-task.html">W4 Task</a></li>
       <li><a href="w05-task.html">W5 Task</a></li>
-      <li><a href="project.html" class="active">Project</a></li>
+      <li><a href="project/project.html" class="active">Project</a></li>
     </ul>
   </nav>
   <main id="home">
@@ -45,5 +47,5 @@
     &copy;<span id="year"></span> | Project | CSE 121b
   </footer>
 </body>
-<script src="w02-task/scripts/project.js" defer></script>
+<script src="project/script/project.js" defer></script>
 </html>

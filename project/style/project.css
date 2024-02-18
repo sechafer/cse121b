@@ -1,0 +1,31 @@
+.article-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px; /* Espacio entre grupos de artículos */
+}
+
+.article img {
+    max-width: 175px;
+    height: auto;
+}
+
+.article {
+    width: calc(25% - 10px); /* 25% para que haya 4 elementos en una fila, -10px para el margen entre elementos */
+    margin-bottom: 20px; /* Espacio entre filas */
+    padding: 10px; /* Agrega espacio interno alrededor del artículo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agrega sombra suave */
+    overflow: hidden; /* Oculta el contenido que sobresale del contenedor */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(200, 211, 211);
+    border-radius: 5%;
+}
+
+.article a {
+    text-align: center; /* Centra el contenido del enlace */
+}
+
+.article h2 {
+    font-size: 1em; /* Reduce el tamaño del h2 a la mitad */
+}
